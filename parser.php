@@ -17,12 +17,12 @@ foreach($entities as $entitie) {
 	if($entitie["type"] == "text_mention") {
 		$replace='<a href="https://t.me/'.$entitie["user"]["username"].'">'. $value .'</a>';
 		$text=mb_substr($text, 0, $entitie["offset"]+$index) . $replace . mb_substr($text, $entitie["offset"]+$index+mb_strlen($value));
-		$index+=strlen($replace)-strlen($value);
+		$index+=mb_strlen($replace)-mb_strlen($value);
 	}
 	else if($entitie["type"] == "url") {
 		$replace='<a href="'.$value.'">'. $value .'</a>';
 		$text=mb_substr($text, 0, $entitie["offset"]+$index) . $replace . mb_substr($text, $entitie["offset"]+$index+mb_strlen($value));
-		$index+=strlen($replace)-strlen($value);
+		$index+=mb_strlen($replace)-mb_strlen($value);
 	}
 }
 print $text."\n";

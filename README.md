@@ -14,25 +14,25 @@ A program to parse and decode formatted part of the Telegram message text with U
 
 ```
 ✳️✳️✳️ Help ✳️✳️✳️
-Aztek_btc $t€ph!n 
-Aztek_btc requested help
-https://t.me/c/1095432501/1003
+Aztek $t€ph!n 
+Aztek requested help
+https://t.me/c/10954501/103
 ```
 
 #### Detect
 
 ```
----> Aztek_btc
+---> Aztek
 ---> $t€ph!n
----> Aztek_btc
----> https://t.me/c/1095432501/1003
+---> Aztek
+---> https://t.me/c/10954501/103
 ```
 
 #### Output
 
 ```
 ✳️✳️✳️ Help ✳️✳️✳️
-<a href="https://t.me/Aztek_btc">Aztek_btc</a> <a href="https://t.me/stephin">$t€ph!n</a> 
-<a href="https://t.me/Aztek_btc">Aztek_btc</a> requested help
-<a href="https://t.me/c/1095432501/1003">https://t.me/c/1095432501/1003</a>
+<a href="https://t.me/Aztek">Aztek</a> <a href="https://t.me/step">$t€ph!n</a> 
+<a href="https://t.me/Aztek">Aztek</a> requested help
+<a href="https://t.me/c/10954501/103">https://t.me/c/10954501/103</a>
 ```

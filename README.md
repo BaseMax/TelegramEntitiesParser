@@ -4,8 +4,9 @@ A program to parse and decode formatted part of the Telegram message text with U
 
 #### Types
 
-- text_mention
 - url
+- mention
+- text_mention
 
 ## Example
 

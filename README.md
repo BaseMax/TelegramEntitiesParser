@@ -6,7 +6,7 @@ A program to parse and decode formatted part of the Telegram message text with U
 
 - [x] url
 - [x] mention (@username)
-- [x] text_mention
+- [x] text_mention (for users without usernames)
 - [ ] hashtag
 - [ ] cashtag
 - [ ] bot_command

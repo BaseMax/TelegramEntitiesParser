@@ -36,3 +36,15 @@ https://t.me/c/11/13
 <a href="https://t.me/Uname">Uname</a> requested help
 <a href="https://t.me/c/11/13">https://t.me/c/11/13</a>
 ```
+
+--------
+
+## Message Entity
+
+- https://core.telegram.org/bots/api#message
+- https://core.telegram.org/bots/api#messageentity
+
+### Telegram Bot API
+
+- https://core.telegram.org/bots/api
+- https://core.telegram.org/bots

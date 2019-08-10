@@ -2,11 +2,21 @@
 
 A program to parse and decode formatted part of the Telegram message text with UTF8 support.
 
-#### Types
+#### Message Entity Types
 
-- url
-- mention
-- text_mention
+- [x] url
+- [x] mention (@username)
+- [x] text_mention
+- [ ] hashtag
+- [ ] cashtag
+- [ ] bot_command
+- [ ] email
+- [ ] phone_number
+- [ ] bold (bold text)
+- [ ] italic (italic text)
+- [ ] code (monowidth string)
+- [ ] pre (monowidth block)
+- [ ] text_link (for clickable text URLs)
 
 ## Example
 
